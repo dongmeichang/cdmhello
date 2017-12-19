@@ -10,8 +10,8 @@ class WebRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
                 "<html>",                                                                                               
                 "<head><title>Hello World</title></head>",                                                              
                 "<body style=\"text-align:center;\">",                                                                  
-                "<p><img src='hchan.jpg' /></p>",                                                                      
-                "<h3>Hello Alauda!</h3><br />",                                                                         
+                "<p><img src='timg.jpg' /></p>",                                                                      
+                "<h3>Hello Big Dog!</h3><br />",                                                                         
                 "<p>My hostname is <b>" + hostname + "</b></p>",                                                        
                 "</body>",                                                                                              
                 "<html>"                                                                                                

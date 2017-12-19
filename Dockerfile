@@ -12,6 +12,6 @@ EXPOSE 80
                                                                                                                         
 COPY . /app                                                                                                             
                                                                                                                         
-RUN chmod +x /app/run.sh                                                                                                
+RUN chmod +x /app/a.sh                                                                                                
                                                                                                                         
-CMD ["/app/run.sh"] 
+CMD ["/app/a.sh"] 

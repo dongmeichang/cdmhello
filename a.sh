@@ -1,5 +1,5 @@
 #!/bin/bash                                                                                                             
-echo "logfile" >> /home/hchan.txt
+echo "logfile" >> /home/log.log
 echo "echo logs"
 echo "cdmtest"
-/usr/bin/python  /app/server.py
+/usr/bin/python  /app/hello.py

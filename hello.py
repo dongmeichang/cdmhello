@@ -4,7 +4,7 @@ import socket
                                                                                                                         
 class WebRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):                                                         
     def do_GET(self):                                                                                                   
-        if self.path != "/hchan.jpg":                                                                                  
+        if self.path != "/timg.jpg":                                                                                  
             hostname = socket.gethostname()                                                                             
             message_parts = [                                                                                           
                 "<html>",                                                                                               
